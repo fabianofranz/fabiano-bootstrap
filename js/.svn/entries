@@ -1,0 +1,46 @@
+8
+
+dir
+124
+http://fabianofranz.com/svn/literar2/html/js
+http://fabianofranz.com/svn
+
+
+
+2009-08-11T02:13:03.028952Z
+118
+fabianofranz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f713b801-67e7-477e-8430-afff5ea31aa8
+
+jquery
+dir
+
+main.js
+file
+
+
+
+
+2009-09-05T16:17:46.000000Z
+c86b6bfd94985ab6d857e08994b97d18
+2009-08-11T02:13:03.028952Z
+118
+fabianofranz
+
+other
+dir
+

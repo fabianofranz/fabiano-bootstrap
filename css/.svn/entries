@@ -1,0 +1,68 @@
+8
+
+dir
+124
+http://fabianofranz.com/svn/literar2/html/css
+http://fabianofranz.com/svn
+
+
+
+2009-08-08T04:28:23.109623Z
+117
+fabianofranz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f713b801-67e7-477e-8430-afff5ea31aa8
+
+print.css
+file
+
+
+
+
+2009-09-05T16:17:43.000000Z
+4c2cbbc526e989c1f3731b5281db9311
+2009-07-28T18:20:51.091709Z
+86
+fabianofranz
+
+yui
+dir
+
+style.css
+file
+
+
+
+
+2009-09-05T16:17:43.000000Z
+a35eb26b0e641e21bdc8f01132e72a02
+2009-08-08T04:28:23.109623Z
+117
+fabianofranz
+has-props
+
+colorbox.css
+file
+
+
+
+
+2009-09-05T16:17:43.000000Z
+1edbd389c2dd55da72787f2ec3ea2d12
+2009-07-24T22:10:39.714423Z
+78
+fabianofranz
+

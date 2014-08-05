@@ -1,0 +1,44 @@
+8
+
+dir
+124
+http://fabianofranz.com/svn/literar2/html/js/jquery
+http://fabianofranz.com/svn
+
+
+
+2009-07-25T00:36:32.952939Z
+79
+fabianofranz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f713b801-67e7-477e-8430-afff5ea31aa8
+
+plugins
+dir
+
+jquery-1.3.2.min.js
+file
+
+
+
+
+2009-09-05T16:17:46.000000Z
+bb381e2d19d8eace86b34d20759491a5
+2009-07-22T04:44:53.753692Z
+71
+fabianofranz
+has-props
+

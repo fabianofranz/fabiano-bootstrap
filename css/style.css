@@ -1,0 +1,84 @@
+body { background: #A7D8E9 url(../images/blue-gradient-bg.jpg) repeat-x top left; font-family: "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif; color: #333; text-shadow: 1px 1px 0px #fff; }
+h1, h2, h3, button, legend, a.button { font-family: "Trebuchet MS", Verdana, Arial; font-weight: bold; letter-spacing: -1px; text-decoration: none; color: #333; }
+h1 { font-size: 2.8em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.4em; }
+form h1, form h2, form h3 { border-bottom: 1px solid lightgrey; margin-bottom: 15px; }
+a { color: #AF1515; cursor: pointer; text-decoration: none; }
+a:hover { color: #7D1919; }
+img { vertical-align: middle; }
+form { margin: 10px 0 15px 0; }
+p, label { margin: 4px 0 1px 0; }
+label { font-weight: bold; display: block; font-size: 1.2em; letter-spacing: -1px; }
+label span { font-size: 80%; color: grey; display: block; }
+input[type=text], input[type=file], input[type=password], textarea, select { display: block; border-top: 1px solid #7c7c7c; border-left: 1px solid #c3c3c3; border-right: 1px solid #c3c3c3; border-bottom: 1px solid #ddd; width: 400px; padding: 3px; background: url(../images/fieldbg.gif) repeat-x top left; font-size: 1.2em; letter-spacing: -1px; }
+input.small, textarea.small, select.small { width: 200px; }
+input.date, input.time { width: 100px; }
+input[type=checkbox] { float: left; margin: 6px 5px 0 0; }
+input.inline, select.inline { display: inline; }
+span.required { color: red; display: inline; margin-left: 3px; }
+button, a.button { border: 1px solid #A7D8E9; background: none; padding: 3px 5px; cursor: pointer; font-size: 1.2em; background: #A7D8E9; color: #333; }
+button.action1, a.action1 { background: #333; color: white; text-shadow: none; border: 1px solid #333; }
+button.action2, a.action2 { background: lightgrey; color: #333; border: 1px solid lightgrey; }
+button.action3, a.action3 { background: white url(../images/white-gradient-bg.png) repeat-x left bottom; color: #333; border: 1px solid lightgrey; }
+button.action4, a.action4 { background: #ECECEC url(../images/grey-gradient-bg.png) repeat-x left bottom; color: #333; border: 1px solid lightgrey; }
+button.action5, a.action5 { background: white url(../images/blue-gradient-bg.png) repeat-x left bottom; color: #333; border: 1px solid #c1dfe3; } button.disabled, a.disabled { background: lightgrey; color: grey; }
+button:hover, a.button:hover { border: 1px solid #8bbbc2; }
+
+form div.buttons { clear: both; margin: 10px 0 5px 0; }
+legend { border-bottom: 1px solid lightgrey; font-size: 1.5em; margin-bottom: 10px; }
+div.box { padding: 0; text-align: center; margin-bottom: 5px; }
+div.box p { padding: 5px 0; }
+div.box h3 { padding: 4px 14px; }
+div.box1 { background: #A7D8E9; }
+div.box2 { background: lightgrey; }
+div.box3 { background: #333; color: white; text-shadow: none; }
+div.box4 { background: white url(../images/white-gradient-bg.png) repeat-x left bottom; border: 1px solid lightgrey; }
+div.box4 h3 { background: lightgrey; }
+div.box5 { background: #ECECEC url(../images/grey-gradient-bg.png) repeat-x left bottom; border: 1px solid lightgrey; }
+div.box6 { background: #FFFFEC; -webkit-box-shadow: 0px 2px 3px #ccc; -moz-box-shadow: 0px 2px 3px #ccc; box-shadow: 0px 2px 3px #ccc; }
+div.box7 { background: white url(../images/white-gradient-bg.png) repeat-x left bottom; border: 1px solid #A7D8E9; }
+div.box7 h3 { background: #A7D8E9; }
+div.box8 { background: white url(../images/blue-gradient-bg.png) repeat-x left bottom; border: 1px solid #A7D8E9; }
+div.box8 h3 { background: #A7D8E9; }
+div.main { background: white; padding: 5px; }
+.rounded, button, div.box, a.button, ul.dropdown-menu > li:hover, ul.dropdown-menu li ul li:hover a { -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+
+.clear { clear: both; }
+.fit-width { display: block; width: 100%; }
+.fit-height { display: block; height: 100%; }
+.fit-width-and-height { display: block; width: 100%; height: 100%; }
+
+div.modal { width: 300px; position: absolute; background-color: #fff; text-align: center; padding: 5px; }
+div.modal .modalcontainer { font-weight: bold; }
+div.modal .modalclose { display: none; }
+div.modal .modalmessage { padding: 10px; line-height: 20px; }
+div.modal .modalbuttons { text-align: right; padding: 5px 0; }
+div.modal .modalbuttons button { margin-left: 4px; width: 55px; }
+.modalfade { position: absolute; background-color: #000; }
+
+ul.dropdown-menu { }
+ul.dropdown-menu > li { float: left; display: block; position: relative; margin: 0 5px; padding: 5px; width: 100px; cursor: pointer; }
+ul.dropdown-menu > li:hover ul { display: block; }
+ul.dropdown-menu > li:hover { background-color: lightgrey; }
+ul.dropdown-menu li ul { display: none; }
+ul.dropdown-menu li ul li { margin: 5px 0 0 0;}
+ul.dropdown-menu li ul li a { display: block; padding: 5px 5px; white-space: nowrap; }	
+ul.dropdown-menu li ul li:hover a { background-color: #A7D8E9; }
+ul.dropdown-menu li:hover ul { display: block; position: absolute; }
+ul.dropdown-menu li:hover li { float: none; }
+ul.dropdown-menu li:hover li a:hover { }
+
+/*
+ul.dropdown-menu { }
+ul.dropdown-menu > li { float: left; display: block; margin: 0px 5px; position: relative; padding: 5px; width: 100px; }
+ul.dropdown-menu > li:hover ul { display: block; }
+ul.dropdown-menu > li:hover { background-color: lightgrey; }
+ul.dropdown-menu li ul { display: none; }
+ul.dropdown-menu li ul li { margin: 5px 0 0 0;}
+ul.dropdown-menu li ul li a { display: block; padding: 5px 5px; white-space: nowrap; }
+ul.dropdown-menu li ul li:hover a { background-color: #A7D8E9; }
+ul.dropdown-menu li ul li:hover ul { display: block; position: absolute; }
+ul.dropdown-menu li ul li:hover li { float: none; }
+ul.dropdown-menu li span { cursor: pointer; margin: 0px 5px; font-weight: bold; } */
+
